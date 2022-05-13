@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.centralpart{
+    overflow: hidden;
+}
+.left{
+    background-color: #303b49;
+    float:left;
+    width: 30%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.aboutme{
+    color: #fff;
+    margin:0px auto;
+    width:70%;
+}
+
+.photo{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width: 90%;
+}
+
+.titleam{
+    width: 85%;
+    display: block;
+    font-weight: bold;
+    font-size: 15pt;
+    border-bottom: 7px solid #fff;
+    border-radius: 7px;
+    margin:35px 0px 15px 0px;
+}
+
+#textam{
+    font-size: 11pt;
+    list-style: none;
+    margin: 7px 0px;
+}
+
+.right{
+    float:right;
+    width: 70%;
+}
+
+.cv{
+    width: 85%;
+    margin: 60px auto 10px auto;
+    color: #404040;
+}
+
+.fn{
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+.position{
+    color:#000;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#titlecv{
+    width: 45%;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 15pt;
+    border-bottom: 7px solid #000;
+    border-radius: 7px;
+}
+
+.description{
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.comandpos{
+    font-weight: bold;
+    font-size: 12pt;
+    width: 90%;
+    margin: 20px auto 10px auto;
+}
+
+.date{
+    font-size: 11pt;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#description1{
+    margin: 0px;
+    font-size: 11pt;
+}
+
+
+span{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+#logo{
+    width: 7%;
+    height: 7%;
+}
+
+footer{
+    width: 98%;
+    background-color: darkslategray;
+    color: #fff;
+    text-align: center;
+    padding: 20px 13px ;
+    margin: 10px 0px 10px 0px;
+    border-color: darkslategray;
+    border-width: 5px;
+    border-style: solid none;
+}
